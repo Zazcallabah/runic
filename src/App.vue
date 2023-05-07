@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import RunicWord from './components/RunicWord.vue'
+import { RouterView } from "vue-router";
 </script>
 
 <template>
   <main>
-    <RunicWord />
+    <RouterView />
   </main>
 </template>
 
 <style scoped>
+main { padding: 1rem }
 </style>
