@@ -33,7 +33,7 @@ export const mergeGlyphs = (glyphs: GlyphOrJoin[]): Glyph[] => {
   return r
 }
 
-const flattenGlyphs = (glyphs: GlyphOrJoin[]): Glyph[] => {
+export const flattenGlyphs = (glyphs: GlyphOrJoin[]): Glyph[] => {
   const r: Glyph[] = []
   for (const g of glyphs) {
     if (typeof g[0] === 'string') {
@@ -50,8 +50,10 @@ export const makeMapKey = (glyph: Glyph): string => {
   return glyph.join('')
 }
 
-export const phonetic = (glyphs: GlyphOrJoin[], map: Record<string, string>): string[] => {
-  const flattened = flattenGlyphs(glyphs)
-  const keys = flattened.map(makeMapKey)
+export const getGlyphKeys=(glyphs:Glyph[]):string[]=>{
+  return glyphs.map(makeMapKey)
+}
+
+export const phonetic = (keys: string[], map: Record<string, string>): string[] => {
   return keys.map((k) => map[k])
 }
