@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { lerp } from '@/utils';
+import { lerp, type Glyph } from '@/utils';
 import { toRefs, computed } from 'vue';
+
 interface Props {
   base?: boolean;
-  lines: string[];
+  lines: Glyph;
   size: number;
 }
 const props = withDefaults(defineProps<Props>(), {
