@@ -15,7 +15,7 @@ export const uhl = ['v1','v5'] // \
 export const eh = ['v1','v5','v4'] // \/
 
 //sheds
-export const ih = ['v2','v1','v5','v4'] // C \/
+export const ii = ['v2','v1','v5','v4'] // C \/
 export const oo = ['v5','v1','v2','v3'] // C ^
 export const ohw = ['v1','v2','v3','v4','v5'] // C=
 
@@ -23,7 +23,7 @@ export const ohw = ['v1','v2','v3','v4','v5'] // C=
 // scaffolt
 export const ar = ['v2','v3','v4','v5'] // v^
 export const uh = ['v2','v3'] // ^
-export const i = ['v4','v5'] // v
+export const ih = ['v4','v5'] // v
 
 // rhotic
 export const air = ['v1','v4']

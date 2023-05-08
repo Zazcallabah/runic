@@ -3,15 +3,15 @@ import { ref, computed } from "vue"
 import RunicWord from '@/components/RunicWord.vue'
 import * as con from '@/glyphs/consonants';
 import * as vow from '@/glyphs/vowels';
-import { ih, i, eh, ey,uh, oh, ar,or, oo,ohw, er,ow ,air} from '@/glyphs/vowels';
-import { sh, l, d, v, s, j,k, t, r, z,n,p, dj, tdh, vuh,m, f } from '@/glyphs/consonants';
+import { ii, ih, eh, ey,uh, oh, ar,or, oo,ohw, er,ow ,air,ay,} from '@/glyphs/vowels';
+import { sh, l,h, d, v, s, j,k, t, r, z,n,p, dj, tdh, vuh,m, f } from '@/glyphs/consonants';
 import { phonetic,flattenGlyphs,getGlyphKeys, type GlyphOrJoin } from '@/utils';
 import { ipa, names } from '@/glyphs/phonetics';
 
 const filterOn = ref("")
 const words: Record<string, GlyphOrJoin[]> = {
     fox: [[f, oh], k, s],
-    shield: [[sh, ih], l, d],
+    shield: [[sh, ii], l, d],
     sword: [[s, or], d],
 
      up: [[uh,p]],
@@ -29,11 +29,18 @@ const words: Record<string, GlyphOrJoin[]> = {
      focus:[[f,ohw],[k,uh],s],
      move:[[m,oo],vuh],
 
-     is: [[i,z]],
+     is: [[ih,z]],
      the: [[tdh, uh]],
      of: [[uh,vuh]],
 
+     hi: [[h,ay]],
+     are: [ar],
+     you: [[j,oh]],
+     new: [[n,oh]],
 
+    //  the:
+    //  altar
+    //  has no soul
 
      // guy inventory crucial
      // far shore
@@ -50,14 +57,17 @@ const words: Record<string, GlyphOrJoin[]> = {
 
      // you are allowed
 
-    secret: [[s, ih], k, [r, i], t],
+    secret: [[s, ii], k, [r, ih], t],
     legend: [[l, eh], [dj, eh], n, d],
-    softest: [[s, oh], f, [t, i], s, t],
-    ruin: [[r, oo], [i, n]],
+    softest: [[s, oh], f, [t, ih], s, t],
+    ruin: [[r, oo], [ih, n]],
     rune: [[r, oo], n],
-    seeker: [[s, ih], [k, er]],
+    seeker: [[s, ii], [k, er]],
     heir: [air],
-    unkn: [con.unkn]
+    runic: [[r,oo],n,[ih,k]],
+    unkn: [con.unkn],
+
+    place: [p,[l,ey],s]
 }
 
 type word = {

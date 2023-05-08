@@ -27,6 +27,8 @@ const makeIpa = (): Record<string, string> => {
   namescopy[makeMapKey(con.tfh)] = "θ"
   namescopy[makeMapKey(con.sh)] = "ʃ"
   namescopy[makeMapKey(con.ing)] = "ŋ"
+  namescopy[makeMapKey(con.vuh)] = "v"
+
   // tj dj vuh ing sh tdh tfh
  // con.dj 	;//dew[4]
   //con.dʒ 	;//giant, badge
@@ -51,6 +53,9 @@ const makeIpa = (): Record<string, string> => {
 //, ey, ay, oy, ow, oh, ah, uhl, eh, ih, oo, ohw
 //ar, uh, i, air, ear, or, er,
 namescopy[makeMapKey(vow.ar)] = "ær"
+namescopy[makeMapKey(vow.oo)] = "uː"
+namescopy[makeMapKey(vow.ohw)] = "o"
+
 
   return namescopy
 }
