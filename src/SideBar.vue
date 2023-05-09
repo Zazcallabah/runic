@@ -10,9 +10,9 @@ import RunicWord from "./components/RunicWord.vue";
     <p>
       <RunicWord :size="50" :glyphs="[vow.ey]"/>
       <RunicWord :size="50" :glyphs="[vow.oy]"/>
-      <RunicWord :size="50" :glyphs="[vow.ay]"/>
+      <RunicWord :size="50" :glyphs="[vow.aj]"/>
       <RunicWord :size="50" :glyphs="[vow.ow]"/><br>
-      <pre>Ey    Oy    Ay    Ow</pre>
+      <pre>Ey    Oy    Aj    Ow</pre>
     </p>
     <p>
       <RunicWord :size="50" :glyphs="[vow.er]"/>
