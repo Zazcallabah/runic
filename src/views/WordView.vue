@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from "vue"
+import { ref, computed } from "vue"
 import RunicWord from '@/components/RunicWord.vue'
 import * as con from '@/glyphs/consonants';
 import * as vow from '@/glyphs/vowels';
-import { ii, ih, eh, ey, uh, uhl, ah, oh, ar, ear,or, oo, ohw, er, ow, air, aj } from '@/glyphs/vowels';
-import { sh, l, h, d, b, v, g, s, j, k, t, r, z, n, p, dj, tj, tdh, tfh, vuh, m, f } from '@/glyphs/consonants';
+import { ii, ih, eh, ey, uh, uu, ah, oh, ar, ear,or, oo, ohw, er, ow, air, aj } from '@/glyphs/vowels';
+import { sh, l, h, d, b, v, g, s, j, k, t, r, z, n, p, dj, tj,ch, tdh, ng,tfh, vh, m, f } from '@/glyphs/consonants';
 import { phonetic, flattenGlyphs, getGlyphKeys, type GlyphOrJoin } from '@/utils';
 import { ipa, names } from '@/glyphs/phonetics';
 import * as pageData from '@/glyphs/pages'
@@ -88,7 +88,7 @@ const filters = Object.keys(names)
     <h2>Pages:</h2>
 
     <section v-for="(p, i) in visiblePages" :key="i">
-        <h3>{{ p.name }}</h3>
+        <h3 v-show="p.page.length">{{ p.name }}</h3>
         <p v-for="(w, i2) in p.page" :key="i2">
             <RunicWord :size="50" :glyphs="w.g" /> {{ w.text }} [{{ w.phonetic }}] /{{ w.ipa }}/
         </p>

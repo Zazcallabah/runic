@@ -31,16 +31,16 @@ export const k = ['k2', 'k3', 'k4'] // k
 export const n = ['k1','k4','k6']
 export const f =['k3','k5','k6']
 export const g=['k3','k4','k5']
-export const vuh =['k1','k2','k4']
+export const vh =['k1','k2','k4']
 
 // th's
-export const ing = ['k1', 'k2', 'k3', 'k4', 'k5', 'k6']
+export const ng = ['k1', 'k2', 'k3', 'k4', 'k5', 'k6']
 export const sh = ['k1','k3','k4','k5','k6']
 export const tdh = ['k2','k4','k5','k6']
 export const tfh = ['k1','k2','k3','k5']
 
 
-// one yet not known
-export const unkn = ['k1','k2','k3','k4','k6']
+// soft sh
+export const ch = ['k1','k2','k3','k4','k6']
 
 

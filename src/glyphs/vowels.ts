@@ -11,7 +11,7 @@ export const oh = ['v1', 'v2'] // /
 export const ah = ['v1', 'v2','v3'] // /\
 
 // floors
-export const uhl = ['v1','v5'] // \
+export const uu = ['v1','v5'] // \
 export const eh = ['v1','v5','v4'] // \/
 
 //sheds

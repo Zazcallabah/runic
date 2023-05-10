@@ -37,8 +37,8 @@ import RunicWord from "./components/RunicWord.vue";
     <p>
       <RunicWord :size="50" :glyphs="[vow.ohw]"/>
       <RunicWord :size="50" :glyphs="[vow.oo]"/>
-      <RunicWord :size="50" :glyphs="[vow.uhl]"/>
-      <pre>Ohw    Oo    Uhl</pre>
+      <RunicWord :size="50" :glyphs="[vow.uu]"/>
+      <pre>Ohw    Oo    Uu</pre>
     </p>
   </div>
   <div class="side">
@@ -59,16 +59,18 @@ import RunicWord from "./components/RunicWord.vue";
     </p>
     <p>
       <RunicWord :size="50" :glyphs="[con.k]"/>
-      <RunicWord :size="50" :glyphs="[con.vuh]"/>
+      <RunicWord :size="50" :glyphs="[con.vh]"/>
       <RunicWord :size="50" :glyphs="[con.g]"/>
       <RunicWord :size="50" :glyphs="[con.f]"/><br>
-      <pre> k    vuh   g     f</pre>
+      <pre> k    vh   g     f</pre>
     </p>
     <p>
       <RunicWord :size="50" :glyphs="[con.h]"/>
       <RunicWord :size="50" :glyphs="[con.j]"/>
-      <RunicWord :size="50" :glyphs="[con.r]"/><br>
-      <pre> h    j     r</pre>
+      <RunicWord :size="50" :glyphs="[con.r]"/>
+      <RunicWord :size="50" :glyphs="[con.ng]"/>
+      <br>
+      <pre> h    j     r    ng</pre>
     </p>
     <p>
       <RunicWord :size="50" :glyphs="[con.n]"/>
@@ -80,14 +82,10 @@ import RunicWord from "./components/RunicWord.vue";
     <p>
       <RunicWord :size="50" :glyphs="[con.tdh]"/>
       <RunicWord :size="50" :glyphs="[con.tfh]"/>
-      <RunicWord :size="50" :glyphs="[con.ing]"/>
+      <RunicWord :size="50" :glyphs="[con.ch]"/>
       <RunicWord :size="50" :glyphs="[con.sh]"/>
       <br>
-      <pre> TH    th   ing   sh</pre>
-    </p>
-    <p>
-      <RunicWord :size="50" :glyphs="[con.unkn]"/>
-    <pre> ?</pre>
+      <pre> TH    th   sh   SH</pre>
     </p>
   </div>
 </template>
