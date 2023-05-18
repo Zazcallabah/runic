@@ -2,12 +2,12 @@ import { ii, ih, eh, ey, uh, uu, ear, ah, oh, ar, or, oo, ohw, er, ow, air, aj }
 import { sh, l, h, d, b, v, g, s, j, k, t, r, z, n, p, dj, tj, tdh, tfh, vh, m, f,ng,ch} from '@/glyphs/consonants'
 import type { GlyphOrJoin } from '@/utils'
 
-export const page0: Record<string, GlyphOrJoin[]> = {
+export const page00: Record<string, GlyphOrJoin[]> = {
   secret: [[s,ii],k,[r,ih],t],
   legend: [[l,eh],[dj,eh],n,d],
 }
 
-export const page1: Record<string, GlyphOrJoin[]> = {
+export const page01: Record<string, GlyphOrJoin[]> = {
   the: [[tdh,uh]],
   softest:[[s,oh],f,[t,ih],s,t],
   feather: [[f,eh],[tdh,er]],
@@ -18,7 +18,7 @@ export const page1: Record<string, GlyphOrJoin[]> = {
   once: [[v,uh],n,s],
   more: [[m,or]],
 }
-export const page2: Record<string, GlyphOrJoin[]> = {
+export const page02: Record<string, GlyphOrJoin[]> = {
   cards: [[k,ar],d,z],
   praying:[p,[r,ey],[ih,ng]],
   the:[[tdh,uh]],
@@ -26,7 +26,7 @@ export const page2: Record<string, GlyphOrJoin[]> = {
   shore:[[sh,or]]
 }
 
-export const page3: Record<string, GlyphOrJoin[]> = {
+export const page03: Record<string, GlyphOrJoin[]> = {
   there: [[tdh,air]],
   lived: [[l,ih],vh,d],
   a:[uh],
@@ -84,6 +84,61 @@ export const page3: Record<string, GlyphOrJoin[]> = {
   fabled: [[f,ey],[b,uu],h,l,d],
   price: [p,[r,aj],z],
 }
+
+export const page06: Record<string, GlyphOrJoin[]> = {
+  canonical:[[k,uh],[n,oh],[n,ih],[k,uh],l],
+  plain: [p,[l,ey],n],
+}
+export const page08: Record<string, GlyphOrJoin[]> = {
+  thee:[[tdh,ii]],
+  heir: [air],
+}
+export const page09: Record<string, GlyphOrJoin[]> = {
+  options:[[uh,p],[sh,uh],n,z],
+  mean:[[m,ii],n],
+  can:[[k,ah],n],
+  keep:[[k,ii],p],
+  playing:[p,[l,ey],[ih,ng]],
+  if:[[ih,f]],
+  the:[[tdh,uh]],
+  challenge:[[tj,ah],[l,eh],n,dj],
+  is: [[ih,z]],
+  to: [[t,oo]],
+  much:[[m,uh],tj],
+  right:[[r,aj],t],
+  now:[[n,ow]],
+  you:[[j,oo]],
+  are:[ar],
+  allowed:[[uh,l],[ow,d]],
+  continue: [[k,uh],n,[t,ih],n,[j,oo]],
+  most: [[m,ohw],s,t],
+  recent: [[r,ii],[s,ih],n,t],
+  file: [[f,aj],l],
+  begin: [[b,eh],[g,ih],n],
+  a:[uh],
+  fresh:[f,[r,eh],sh],
+  quest: [k,[v,eh],s,t],
+  adjust: [[uh,dj],[uh,s],t],
+  settings:[[s,eh],[t,ih],ng,z],
+  go: [[g,ohw]],
+  screen:[s,k,[r,ii],n],
+  money: [[m,uh],[n,ii]],
+  harder:[[h,ar],[d,er]],
+  unknown:[[uh,n],[n,ohw],n],
+  select: [[s,uh],[l,eh],k,t],
+  whose: [[h,oo],z],
+  this:[[tdh,ih],s],
+  load:[[l,ohw],d],
+  and: [[ah,n],d],
+  resume: [[r,ii],[z,oo],m],
+  play:[p,[l,ey]],
+  choose:[[tj,oo],z],
+  remove:[[r,ii],[m,oo],vh],
+  forever:[[f,or],[eh,vh],er],
+  customize:[[k,uh],s,[t,uh],[m,aj],z],
+  your:[[j,or]],
+  experience:[[eh,k],s,[p,ear],ii,[ih,n],s],
+}
 export const page11: Record<string, GlyphOrJoin[]> = {
   ruin: [[r,oo],[ih,n]],
   seeker: [[s,ii],[k,er]],
@@ -117,6 +172,79 @@ export const page12: Record<string, GlyphOrJoin[]> = {
   inventory: [[ih,n],[vh,eh],n,[t,or],ii],
   gear: [[g,ear]],
   move: [[m, oo], vh]
+}
+export const page23: Record<string, GlyphOrJoin[]> = {
+  do:[[d,oo]],
+  you:[[j,oo]],
+  the:[[tdh,uh]],
+  way:[[vh,ey]],
+  go:[[g,ohw]],
+
+  check:[[tj,eh],k],
+  behind:[[b,ii],[h,aj],n,d],
+  it:[[ih,t]],
+
+  monastery:[[m,oh],[n,uh],s,[t,air],ii],
+  fortress:[[f,or],t,[r,eh],s],
+  forest:[[f,or],[eh,s],t],
+  swamp:[s,[v,oh],m,p],
+  library:[[l,aj],b,[r,air],ii],
+  garden:[[g,ar],[d,ih],n],
+
+  secret: [[s,ii],k,[r,ih],t],
+
+  to: [[t,oo]],
+  pray:[p,[r,ey]],
+  be: [[b,ii]],
+  still:[s,[t,ih],l],
+  for:[[f,or]],
+  a:[uh],
+
+  ruin:[[r,oo],[ih,n]],
+  seeker:[[s,ii],[k,er]],
+  press: [p,[r,eh],s],
+  hold:[[h,ohw],l,d],
+
+  know:[[n,ohw]],
+  holy:[[h,ohw],[l,ii]],
+  being:[[b,ii],[ih,ng]],
+  will:[[v,ih],l],
+  ever: [[eh,vh],er],
+  hear: [[h,ear]],
+
+  give: [[g,ih],vh],
+  of:[[uh,vh]],
+  their:[[tdh,air]],
+  core:[[k,or]],
+  and:[[ah,n],d],
+  awaken:[uh,[v,ey],[k,ih],n],
+}
+export const page24: Record<string, GlyphOrJoin[]> = {
+  of: [[uh,vh]],
+  prayer: [p,[r,ey],er],
+
+  moment: [[m,ohw],[m,ih],n,t],
+  and: [[ah,n],d],
+  rest: [[r,eh],s,t],
+
+  hold: [d],
+  for: [[f,or]],
+  a: [uh],
+  short:[[sh,or],t],
+  time: [[t,aj],m],
+
+  you:[[j,oo]],
+  but: [[b,uh],t],
+  venerate:[[vh,eh],[n,er],[ey,t]],
+  chose:[[sh,ohw],z],
+  who: [[h,oo]],
+
+  the:[[tdh,uh]],
+  tools:[[t,oo],l,z],
+  lost:[[l,oh],s,t],
+  age:[[ey,dj]],
+
+  praying: [p,[r,ey],[ih,ng]],
 }
 
 export const page30: Record<string, GlyphOrJoin[]> = {
@@ -205,6 +333,85 @@ export const page43: Record<string, GlyphOrJoin[]> = {
   understand: [[uh,n],[d,er],s,[t,ah],n,d],
 }
 
+export const page44: Record<string, GlyphOrJoin[]> = {
+  much: [[m,uh],tj],
+  is: [[ih,z]],
+  hidden: [[h,ih],[d,ih],n],
+  in: [[ih,n]],
+  this:[[tdh,ih],s],
+  world: [[v,er],l,d],
+  bound: [[b,ow],n,d],
+  behind: [[b,ii],[h,aj],n,d],
+  the: [[tdh,uh]],
+  power: [[p,ow],er],
+  of: [[uh,vh]],
+  proove:[p,[r,oo],vh],
+  to: [[t,oo]],
+  those: [[tdh,ohw],z],
+  who: [[h,oo]],
+  gave: [[g,ey],vh],
+  their: [[tdh,air]],
+  core:[[k,or]],
+  that: [[tdh,ah],t],
+  you:[[j,oo]],
+  know: [[n,ohw]],
+  it:[[ih,t]],
+  deeply:[[d,ii],p,[l,ii]],
+
+
+  open:[[ohw,p],[eh,n]],
+  vaults:[[vh,oh],l,t,s],
+  left:[[l,eh],f,t],
+  help:[[h,eh],l,p],
+  wise:[[v,aj],z],
+  ruin:[[r,oo],[ih,n]],
+  seekers:[[s,ii],[k,er],z],
+
+  souls: [[s,ohw],l,z],
+  stayed:[s,[t,ey],d],
+  guide:[[g,aj],d],
+  and: [[ah,n],d],
+  receive: [[r,ii],[s,ii],vh],
+  gift:[[g,ih],f,t],
+
+  follow:[[f,oh],[l,ohw]],
+  monolith:[[m,oh],[n,ohw],[l,ih],tfh],
+}
+export const page45: Record<string, GlyphOrJoin[]> = {
+  extinguish: [[eh,k],s,[t,ih],ng,g,[vh,ih],sh],
+  the: [[tdh,uh]],
+  beings:[[b,ii],[k,ih],n,z],
+  last: [[l,ah],s,t],
+  spark: [s,[p,ar],k],
+  and: [[ah,n],d],
+  become: [[b,ii],[k,uh],m],
+  a: [uh],
+  fresh:[f,[r,eh],sh],
+  martyr:[[m,ar],[t,er]],
+  courage: [[k,er],[ih,dj]],
+  that: [[tdh,ah],t],
+  is:[[ih,z]],
+  untempered:[[uh,n],[t,eh],m,[p,er],d],
+  by: [[b,aj]],
+  kindness: [[k,aj],n,d,[n,ih],z],
+  risks: [[r,ih],s,k,s],
+  eating:[[ii,t],[ih,ng]],
+  itself: [[ih,t],[s,eh],l,f],
+  forever: [[f,or],[eh,vh],er],
+}
+export const page46: Record<string, GlyphOrJoin[]> = {
+  wisdom:[[v,ih],z,[d,uh],m],
+  that: [[tdh,ah],t],
+  is: [[ih,z]],
+  untempered:[[uh,n],[t,eh],m,[p,er],d],
+  by: [[b,aj]],
+  kindness: [[k,aj],n,d,[n,ih],s],
+  no: [[n,ohw]],
+  at:[[ah,t]],
+  all:[[oh,l]],
+  be: [[b,ii]],
+  free: [f,[r,ii]],
+}
 export const page49: Record<string, GlyphOrJoin[]> = {
   the:[[tdh,uh]],
   golden: [[g, ohw], l, [d, ih], n],
@@ -300,7 +507,7 @@ export const page55: Record<string, GlyphOrJoin[]> = {
 export const xtra: Record<string, GlyphOrJoin[]> = {
   light:[[l,aj],t],
   candle:[[k,ah],n,[d,uu],l],
-  wierd: [[v,ear],d],
+  weird: [[v,ear],d],
   critters: [k,[r,ih],[t,er],z],
 }
 // export const words: Record<string, GlyphOrJoin[]> = {
@@ -327,16 +534,14 @@ export const xtra: Record<string, GlyphOrJoin[]> = {
 //      that:[[tdh,ah],t],
 
 
-//      // for here hear are enough left when that
-//      // found toy great  have width you page  praying
-//      // nothing water wide brave use adjust sign strange
+//      // for here hear are enough left that
+//      // found toy great  have width you
+//      // nothing water wide brave use adjust sign
 //      // yet  they was wisdom tool toy checkpoint
 //      //  guard rare  so know not north war kindness certain
 //      // by item right mere  south
-//      // but there are som weird critters
 
-//      // you are allowed
 
-//rune: [[r, oo], n],
+//     rune: [[r, oo], n],
 //     runic: [[r,oo],n,[ih,k]],
 // }

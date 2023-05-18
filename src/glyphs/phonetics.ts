@@ -69,15 +69,15 @@ const makeIpa = (): Record<string, string> => {
 
   namescopy[makeMapKey(vow.oy)] = 'oy'
   namescopy[makeMapKey(vow.ow)] = 'ow'
-  namescopy[makeMapKey(vow.ah)] = 'ah'
   namescopy[makeMapKey(vow.eh)] = 'eh'
-  namescopy[makeMapKey(vow.ii)] = 'ii'
   namescopy[makeMapKey(vow.uh)] = 'uh'
-  namescopy[makeMapKey(vow.air)] = 'air'
+  namescopy[makeMapKey(vow.air)] = 'air' // ɛə
   namescopy[makeMapKey(vow.ear)] = 'ear'
   namescopy[makeMapKey(vow.or)] = 'or'
   namescopy[makeMapKey(vow.er)] = 'er'
 
+  namescopy[makeMapKey(vow.ah)] = 'æ'
+  namescopy[makeMapKey(vow.ii)] = 'iː'
   namescopy[makeMapKey(vow.uu)] = 'ʊ'
   namescopy[makeMapKey(vow.ey)] = 'eɪ'
   namescopy[makeMapKey(vow.aj)] = 'aɪ'
