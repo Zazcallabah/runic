@@ -3,7 +3,7 @@ import { ref, computed } from "vue"
 import RunicWord from '@/components/RunicWord.vue'
 import * as con from '@/glyphs/consonants';
 import * as vow from '@/glyphs/vowels';
-import { ii, ih, eh, ey, uh, uu, ah, oh, ar, ear,or, oo, ohw, er, ow, air, aj } from '@/glyphs/vowels';
+import { ii, ih, eh, ey, uh, uu, ah, oh, ar, ear,or,oy, oo, ohw, er, ow, air, aj } from '@/glyphs/vowels';
 import { sh, l, h, d, b, v, g, s, j, k, t, r, z, n, p, dj, tj,ch, tdh, ng,tfh, vh, m, f } from '@/glyphs/consonants';
 import { phonetic, flattenGlyphs, getGlyphKeys, type GlyphOrJoin } from '@/utils';
 import { ipa, names } from '@/glyphs/phonetics';
@@ -69,9 +69,11 @@ const filters = Object.keys(names)
 
 <template>
     <h2>Current:</h2>
-    <p v-for="(w,i) in currentWork" :key="i">
-        <RunicWord :size="50" :glyphs="w.g" /> {{ w.text }} [{{ w.phonetic }}] /{{ w.ipa }}/
-    </p>
+    <section>
+        <p v-for="(w,i) in currentWork" :key="i">
+            <RunicWord :size="50" :glyphs="w.g" /> {{ w.text }} [{{ w.phonetic }}] /{{ w.ipa }}/
+        </p>
+    </section>
     <h2>Filter:</h2>
     <select v-model="filterOn">
         <option selected value="">show all</option>
@@ -95,4 +97,8 @@ const filters = Object.keys(names)
     </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+section {
+    width:calc(100vw - 400px);
+}
+</style>
