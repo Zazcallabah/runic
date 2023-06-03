@@ -333,6 +333,74 @@ export const page17: Record<string, GlyphOrJoin[]> = {
   unusual:[[uh,n],[j,oo],[ch,oo],[ah,l]],
   greatness:[g,[r,ey],t,[n,ih],s],
 }
+export const page17b: Record<string, GlyphOrJoin[]> = {
+  some:[[s,uh],m],
+  items:[[aj,t],[eh,m],z],
+  use:[[j,oo],z],
+  power:[[p,ow],er],
+  your:[[j,or]],
+  soul:[[s,ohw],l],
+  refill:[[r,ii],[f,ih],l],
+  when:[[v,eh],n],
+  rest:[[r,eh],s,t],
+  but:[[b,uh],t],
+  there:[[tdh,air]],
+  finite:[[f,aj],[n,aj],t],
+  number:[[n,uh],m,[b,er]],
+  world:[[v,or],l,d],
+
+  shows:[[sh,ohw],z],
+  uses:[[j,oo],[s,ih],z],
+  left:[[l,eh],f,t],
+  even:[[ii,vh],[ih,n]],
+  drop:[d,[r,oh],p],
+  enough:[[ii,n],[uh,f]],
+
+  more:[[m,or]],
+  than:[[tdh,ah],n],
+  mere:[[m,ear]],
+  item:[[aj,t],[eh,m]],
+
+
+  life:[[l,aj],f],
+  blood:[b,[l,uh],d],
+  hero:[[h,ear],ohw],
+  quaff:[k,[v,oh],f],
+  to:[[t,oo]],
+  restore:[[r,ii],s,[t,or]],
+  will:[[v,ih],l],
+  go:[[g,ohw]],
+  on:[[oh,n]],
+  mysteriously:[[m,ih],s,[t,ear],ii,[uh,s],[l,ii]],
+  refills:[[r,ii],[f,ih],l,z],
+  whenever:[[v,eh],[n,eh],[vh,er]],
+  touch:[[t,uh],tj],
+
+  find: [[f,aj],n,d],
+  and:[[ah,n],d],
+  you: [[j,oo]],
+  get:[[g,eh],t],
+  a:[uh],
+  free:[f,[r,ii]],
+  flask:[f,[l,ah],s,k],
+
+
+  offer:[[oh,f],er],
+  up:[[uh,p]],
+  ash:[[ah,sh]],
+  make:[[m,ey],k],
+  magic:[[m,ah],[dj,ih],k],
+  potions:[[p,ohw],[sh,uh],n,z],
+  potent:[[p,ohw],[t,ih],n,t],
+  it:[[ih,t]],
+  is:[[ih,z]],
+  said:[[s,eh],d],
+  thee:[[tdh,ii]],
+  of:[[uh,vh]],
+  heroes:[[h,ear],[ohw,z]],
+  fortifies:[[f,or],[t,ih],[f,aj],z],
+  the:[[tdh,uh]],
+}
 export const page23: Record<string, GlyphOrJoin[]> = {
   do:[[d,oo]],
   you:[[j,oo]],
@@ -670,6 +738,35 @@ export const page55: Record<string, GlyphOrJoin[]> = {
   this:[[tdh,ih],s],
   prayer:[p,[r,ey],er],
 }
+
+export const pedestal: Record<string, GlyphOrJoin[]> = {
+  with:[[v,ih],tfh],
+  keys:[[k,ii],z],
+  we:[[v,ii]],
+  sealed:[[s,ii],l,d],
+  the:[[tdh,uh]],
+  heir:[air],
+  a: [uh],
+  key:[[k,ii]],
+  is:[[ih,z]],
+  no:[[n,ohw]],
+  mere:[[m,er]],
+  toy:[[t,oy]],
+  seekers:[[s,ii],[k,er],z],
+  of: [[uh,vh]],
+  ruin:[[r,oo],[ih,n]],
+  leave:[[l,ii],vh],
+  here:[[h,ear]],
+}
+
+export const herostatue: Record<string, GlyphOrJoin[]> = {
+  pray:[p,[r,ey]],
+  to:[[t,oo]],
+  visit:[[vh,ih],[z,ih],t],
+  their:[[tdh,air]],
+  grave:[g,[r,ey],vh],
+}
+
 export const xtra: Record<string, GlyphOrJoin[]> = {
   light:[[l,aj],t],
   candle:[[k,ah],n,[d,uu],l],
