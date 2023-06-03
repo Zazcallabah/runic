@@ -1,4 +1,4 @@
-import { ii, ih, eh, ey, uh, uu, ear, ah, oh, ar, or, oo, ohw, er, ow, air, aj } from '@/glyphs/vowels'
+import { ii, ih, eh, ey, uh, uu, ear, ah, oh, ar, or, oo, ohw, er, ow, air, aj, oy } from '@/glyphs/vowels'
 import { sh, l, h, d, b, v, g, s, j, k, t, r, z, n, p, dj, tj, tdh, tfh, vh, m, f,ng,ch} from '@/glyphs/consonants'
 import type { GlyphOrJoin } from '@/utils'
 
@@ -173,6 +173,166 @@ export const page12: Record<string, GlyphOrJoin[]> = {
   gear: [[g,ear]],
   move: [[m, oo], vh]
 }
+
+export const page15: Record<string, GlyphOrJoin[]> = {
+
+  represent:[[r,eh],p,[r,ii],[z,eh],n,t],
+  your: [[j,or]],
+  poise: [[p,oy],z],
+  and:[[ah,n],d],
+  strength:[s,t,[r,eh],ng,tfh],
+  to: [[t,oo]],
+  perform: [[p,er],[f,or],m],
+  certain:[[s,er],[t,ih],n],
+  actionz:[[ah,k],[sh,uh],n,z],
+  when: [[v,eh],n],
+  you: [[j,oo]],
+  evade:[[ii,vh],[ey,d]],
+  or:[or],
+  other: [[uh,tdh],er],
+  moves: [[m,oo],vh,z],
+  go: [[g,ohw]],
+  down:[[d,ow],n],
+  at: [[ah,t]],
+  can: [[k,ah],n],
+  still:[s,[t,ih],l],
+  do: [[d,oo]],
+  many:[[m,eh],[n,ii]],
+  actions:[[ah,k],[sh,uh],n,s],
+  but: [[b,uh],t],
+  a:[uh],
+  disadvantage:[[d,ih],[s,ah],d,[vh,ah],n,[t,ih],dj],
+
+
+  the: [[tdh,uh]],
+  start:[s,[t,ar],t],
+  of:[[uh,vh]],
+  evasion: [[ii,vh],[ey,ch],[uh,n]],
+  have:[[h,ah],vh],
+  briefly:[b,[r,ii],f,[l,ii]],
+  so: [[s,ohw]],
+  just: [[dj,uh],s,t],
+  rigth: [[r,aj],t],
+  moment:[[m,ohw],[m,ih],n,t],
+
+  take:[[t,ey],k],
+  enough:[[ii,n],[uh,f]],
+  hits:[[h,ih],t,s],
+  will:[[v,ih],l],
+  if:[[ih,f]],
+  is:[[ih,z]],
+  really:[[r,ii],[l,ii]],
+  big:[[b,ih],g],
+  even:[[ii,vh],[ih,n]],
+  be:[[b,ii]],
+  hidden: [[h,ih],[d,ih],n],
+  gauge: [[g,ey],dj],
+  total: [[t,ohw],[t,uu],l],
+}
+
+export const page17: Record<string, GlyphOrJoin[]> = {
+
+  this:[[tdh,ih],s],
+  heros:[[h,ear],[ohw,z]],
+  blade:[b,[l,ey],d],
+  forgery:[[f,or],[dj,er],ii],
+
+  just: [[dj,uh],s,t],
+  stick:[s,[t,ih],k],
+
+  left:[[l,eh],f,t],
+  by:[[b,aj]],
+  use:[[j,oo],z],
+  to:[[t,oo]],
+  deflect:[[d,ii],f,[l,eh],k,t],
+  blows:[b,[l,ohw],z],
+
+  unstable:[[uh,n],s,[t,ey],[b,uu],l],
+  powder:[[p,ow],[d,er]],
+  fairy:[[f,air],ii],
+  west:[[v,eh],s,t],
+  garden:[[g,ar],[d,ih],n],
+
+
+  made:[[m,ey],d],
+  from:[f,[r,uh],m],
+  slorm:[s,[l,or],m],
+  pudding:[[p,uu],[d,ih],ng],
+  that:[[tdh,ah],t],
+  goes:[[g,ohw],z],
+  boom:[[b,oo],m],
+
+  fire:[[f,aj],er],
+  everywhere:[[eh,vh],er,ii,[v,air]],
+  and:[[ah,n],d],
+  ow:[ow],
+
+  you: [[j,oo]],
+  need: [[n,ii],d],
+  key: [[k,ii]],
+  open: [[ohw,p],[eh,n]],
+  of: [[uh,vh]],
+  the:[[tdh,uh]],
+  rare:[[r,air]],
+  old:[[ohw,l],d],
+  doors:[[d,or],z],
+  disappears:[[d,ih],[s,uh],[p,ear],z],
+
+
+
+  eat:[[ii,t]],
+  fruits:[f,[r,oo],t,s],
+  restore:[[r,ii],s,[t,or]],
+  or:[or],
+  they:[[tdh,ey]],
+  are:[ar],
+  gone:[[g,oh],n],
+  forever:[[f,or],[eh,vh],er],
+  so:[[s,ohw]],
+  snack:[s,[n,ah],k],
+  sparingly:[s,[p,air],[ih,ng],[l,ii]],
+
+  one:[[v,uh],n],
+  is:[[ih,z]],
+  spicy:[s,[p,aj],[s,ii]],
+  minty:[[m,ih],n,[t,ii]],
+  gives:[[g,ih],vh,z],
+  a:[uh],
+  boost:[[b,oo],s,t],
+
+  betray:[[b,ii],t,[r,ey]],
+  for:[[f,or]],
+  coins:[[k,oy],n,z],
+  each:[[ii,tj]],
+  betrayal:[[b,ii],t,[r,ey],[uu,l]],
+  sweeter:[s,[v,ii],[t,er]],
+  than:[[tdh,ah],n],
+  last:[[l,ah],s,t],
+
+  doll:[[d,oh],l],
+  beloved:[[b,ii],[l,uh],[vh,ih],d],
+  hero:[[h,ear],ohw],
+  foes:[[f,ohw],z],
+  will:[[v,ih],l],
+  be:[[b,ii]],
+  tricked:[t,[r,ih],k,t],
+
+
+  special:[s,[p,eh],[sh,uu],l],
+  treasure:[t,[r,eh],[ch,er]],
+  allows:[[uh,l],[ow,z]],
+  wish:[[v,ih],sh],
+  at:[[ah,t]],
+  well:[[v,eh],l],
+  give:[[g,ih],vh],
+  tier:[[t,ii],er],
+
+  cards:[[k,ar],d,z],
+  ways:[[v,ey],z],
+  inspired:[[ih,n],s,[p,aj],[er,d]],
+  unusual:[[uh,n],[j,oo],[ch,oo],[ah,l]],
+  greatness:[g,[r,ey],t,[n,ih],s],
+}
 export const page23: Record<string, GlyphOrJoin[]> = {
   do:[[d,oo]],
   you:[[j,oo]],
@@ -324,6 +484,12 @@ export const page41: Record<string, GlyphOrJoin[]> = {
   ruin: [[r, oo], [ih, n]],
   seekers: [[s, ii], [k, er],z],
   arrival:[uh,[r,aj],[vh,uu],l],
+  a: [uh],
+  key:[[k,ii]],
+  is:[[ih,z]],
+  no:[[n,ohw]],
+  mere: [[m,ear]],
+  toy: [[t,oy]]
 }
 export const page43: Record<string, GlyphOrJoin[]> = {
   ruin: [[r,oo],[ih,n]],
