@@ -6,6 +6,7 @@ import RunicWord from "./components/RunicWord.vue";
 
 <template>
   <div class="side">
+    <div>
     Vowels
     <p>
       <RunicWord :size="50" :glyphs="[vow.ey]"/>
@@ -41,7 +42,8 @@ import RunicWord from "./components/RunicWord.vue";
       <pre>Ohw    Oo    Uu</pre>
     </p>
   </div>
-  <div class="side">
+
+  <div>
     Consonants
     <p>
       <RunicWord :size="50" :glyphs="[con.p]"/>
@@ -85,19 +87,26 @@ import RunicWord from "./components/RunicWord.vue";
       <RunicWord :size="50" :glyphs="[con.ch]"/>
       <RunicWord :size="50" :glyphs="[con.sh]"/>
       <br>
-      <pre> TH    th   sh   SH</pre>
+      <pre> TH    th   ch   sh</pre>
     </p>
   </div>
+</div>
 </template>
 
 <style scoped>
 .side {
+  position:fixed;
+  right:0;
+  top:0;
+}
+.side>div{
   border: 1px solid black;
   background: gray;
-  float: right;
+  float:right;
   width: 200px;
+  padding:0.2rem;
 }
-.side > p {
+.side > div>p {
   margin-bottom: 1rem;
 }
 </style>
